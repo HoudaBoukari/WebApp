@@ -39,5 +39,14 @@ namespace WebApp.Controllers
         public void Delete(int id)
         {
         }
+
+        public int Multiplication(int a, int b)
+        {
+            return a * b;
+        }
+        public int addition(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
